@@ -1,0 +1,12 @@
+PODS:
+  - JumioMobileSDK/Netverify-FAT (2.2.0)
+
+DEPENDENCIES:
+  - JumioMobileSDK/Netverify-FAT (= 2.2.0)
+
+SPEC CHECKSUMS:
+  JumioMobileSDK: 771eef0da88e8f62bd8aec33b193aac6eb963036
+
+PODFILE CHECKSUM: e7acb0a9b505e1229930d0448d094fc4576eed73
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		859DE6274E5FD0D3BB951D3ACDCD924C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D15C4E205E34295935EB0848739ACA3C /* Pods-Jumio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA2128BC0A07C58646175DBD40CF51E /* Pods-Jumio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E49737D4F1235825B53D1D20C8951AED /* Pods-Jumio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D42AEE19426A1E41CDF591F8FCA111 /* Pods-Jumio-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07B4EACF78BB30A0BCB795232B91A246 /* Pods_Jumio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jumio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		153E81748F7C87639ABEA4B3630122BA /* Pods-Jumio-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Jumio-acknowledgements.plist"; sourceTree = "<group>"; };
+		2FBB8BCCF1B16A2FC4BBBD8CB7154E70 /* JumioCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JumioCore.framework; path = FAT/JumioCore.framework; sourceTree = "<group>"; };
+		30F17BEDCC9276F46E9AAC8FF811796C /* Netverify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Netverify.framework; path = FAT/Netverify.framework; sourceTree = "<group>"; };
+		55EC1D034F91122866C454832179208D /* Pods-Jumio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Jumio.modulemap"; sourceTree = "<group>"; };
+		78E8081291E3DC751262F9DDD2F04B75 /* Pods-Jumio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jumio.debug.xcconfig"; sourceTree = "<group>"; };
+		7E8FC92DD8B6DA3E50D995459C4707DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A21ED021DCE7324F1A5FCE5ED9A2F847 /* Pods-Jumio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jumio.release.xcconfig"; sourceTree = "<group>"; };
+		BB819679B9CDE9A84F0878B2F5BBB7DC /* Pods-Jumio-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jumio-frameworks.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3CBABD25B37E8425D7AD46ADAA5F02F /* Pods-Jumio-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Jumio-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDA2128BC0A07C58646175DBD40CF51E /* Pods-Jumio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Jumio-umbrella.h"; sourceTree = "<group>"; };
+		ED51E527BC9C292C9A6EE2E87A566945 /* Pods-Jumio-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jumio-resources.sh"; sourceTree = "<group>"; };
+		EF02ED911FAC3C86ED5AAB9D1D031B09 /* MicroBlink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MicroBlink.framework; path = FAT/MicroBlink.framework; sourceTree = "<group>"; };
+		F4D42AEE19426A1E41CDF591F8FCA111 /* Pods-Jumio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Jumio-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F60DD591655F493C3B453FBA0AD7AF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859DE6274E5FD0D3BB951D3ACDCD924C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07645859F4FB8E6F352B2F6BA609FDF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3118E9A3246752904E1D3961CCE7A4ED /* Pods-Jumio */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3118E9A3246752904E1D3961CCE7A4ED /* Pods-Jumio */ = {
+			isa = PBXGroup;
+			children = (
+				7E8FC92DD8B6DA3E50D995459C4707DA /* Info.plist */,
+				55EC1D034F91122866C454832179208D /* Pods-Jumio.modulemap */,
+				D3CBABD25B37E8425D7AD46ADAA5F02F /* Pods-Jumio-acknowledgements.markdown */,
+				153E81748F7C87639ABEA4B3630122BA /* Pods-Jumio-acknowledgements.plist */,
+				F4D42AEE19426A1E41CDF591F8FCA111 /* Pods-Jumio-dummy.m */,
+				BB819679B9CDE9A84F0878B2F5BBB7DC /* Pods-Jumio-frameworks.sh */,
+				ED51E527BC9C292C9A6EE2E87A566945 /* Pods-Jumio-resources.sh */,
+				DDA2128BC0A07C58646175DBD40CF51E /* Pods-Jumio-umbrella.h */,
+				78E8081291E3DC751262F9DDD2F04B75 /* Pods-Jumio.debug.xcconfig */,
+				A21ED021DCE7324F1A5FCE5ED9A2F847 /* Pods-Jumio.release.xcconfig */,
+			);
+			name = "Pods-Jumio";
+			path = "Target Support Files/Pods-Jumio";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		42126D56FE095A8A43D5079B624DCE9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FBB8BCCF1B16A2FC4BBBD8CB7154E70 /* JumioCore.framework */,
+				EF02ED911FAC3C86ED5AAB9D1D031B09 /* MicroBlink.framework */,
+				30F17BEDCC9276F46E9AAC8FF811796C /* Netverify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		765AB951B3FFCED0CE07CF502F7FB1DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B4EACF78BB30A0BCB795232B91A246 /* Pods_Jumio.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9CEAC23DB00EC3A3FFEF683C92E5BD68 /* Pods */,
+				765AB951B3FFCED0CE07CF502F7FB1DC /* Products */,
+				07645859F4FB8E6F352B2F6BA609FDF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98EBC01B7862F5233A487FFAC1980873 /* Netverify-FAT */ = {
+			isa = PBXGroup;
+			children = (
+				42126D56FE095A8A43D5079B624DCE9E /* Frameworks */,
+			);
+			name = "Netverify-FAT";
+			sourceTree = "<group>";
+		};
+		9CEAC23DB00EC3A3FFEF683C92E5BD68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A53C880C441000623B80BB57AD01015E /* JumioMobileSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A53C880C441000623B80BB57AD01015E /* JumioMobileSDK */ = {
+			isa = PBXGroup;
+			children = (
+				98EBC01B7862F5233A487FFAC1980873 /* Netverify-FAT */,
+			);
+			path = JumioMobileSDK;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F7BD0095BA22440E1949213118167FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15C4E205E34295935EB0848739ACA3C /* Pods-Jumio-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DF9633F7C9F91D469A8A52056FA26190 /* Pods-Jumio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52375013AA44FEBA6FD757D22B89A714 /* Build configuration list for PBXNativeTarget "Pods-Jumio" */;
+			buildPhases = (
+				7B38DF163F2083132F50B53F8BDDE459 /* Sources */,
+				F60DD591655F493C3B453FBA0AD7AF08 /* Frameworks */,
+				1F7BD0095BA22440E1949213118167FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Jumio";
+			productName = "Pods-Jumio";
+			productReference = 07B4EACF78BB30A0BCB795232B91A246 /* Pods_Jumio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 765AB951B3FFCED0CE07CF502F7FB1DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF9633F7C9F91D469A8A52056FA26190 /* Pods-Jumio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B38DF163F2083132F50B53F8BDDE459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49737D4F1235825B53D1D20C8951AED /* Pods-Jumio-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43698E81E5D5A9F6479A17E9658DC4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E8081291E3DC751262F9DDD2F04B75 /* Pods-Jumio.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Jumio/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jumio/Pods-Jumio.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Jumio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EDABAF01671B61EA4AF79CCFE2FB4989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21ED021DCE7324F1A5FCE5ED9A2F847 /* Pods-Jumio.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Jumio/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jumio/Pods-Jumio.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Jumio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52375013AA44FEBA6FD757D22B89A714 /* Build configuration list for PBXNativeTarget "Pods-Jumio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43698E81E5D5A9F6479A17E9658DC4DE /* Debug */,
+				EDABAF01671B61EA4AF79CCFE2FB4989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

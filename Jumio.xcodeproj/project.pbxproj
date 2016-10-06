@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CA3AB11DA6BE0D00101E00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA3AB01DA6BE0D00101E00 /* main.m */; };
+		04CA3AB41DA6BE0D00101E00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA3AB31DA6BE0D00101E00 /* AppDelegate.m */; };
+		04CA3AB71DA6BE0E00101E00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA3AB61DA6BE0E00101E00 /* ViewController.m */; };
+		04CA3ABA1DA6BE0E00101E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CA3AB81DA6BE0E00101E00 /* Main.storyboard */; };
+		04CA3ABC1DA6BE0E00101E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CA3ABB1DA6BE0E00101E00 /* Assets.xcassets */; };
+		04CA3ABF1DA6BE0E00101E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CA3ABD1DA6BE0E00101E00 /* LaunchScreen.storyboard */; };
+		4B721E1ECAE71F11CA8B6B6C /* Pods_Jumio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD18633E3BF977BD8D80BB4 /* Pods_Jumio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04CA3AAC1DA6BE0D00101E00 /* Jumio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jumio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CA3AB01DA6BE0D00101E00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CA3AB21DA6BE0D00101E00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04CA3AB31DA6BE0D00101E00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04CA3AB51DA6BE0D00101E00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04CA3AB61DA6BE0E00101E00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04CA3AB91DA6BE0E00101E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CA3ABB1DA6BE0E00101E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CA3ABE1DA6BE0E00101E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CA3AC01DA6BE0E00101E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345E81E8A12D6E54950E7390 /* Pods-Jumio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jumio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jumio/Pods-Jumio.debug.xcconfig"; sourceTree = "<group>"; };
+		90CE565A56C93AA2C650F68E /* Pods-Jumio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jumio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jumio/Pods-Jumio.release.xcconfig"; sourceTree = "<group>"; };
+		FCD18633E3BF977BD8D80BB4 /* Pods_Jumio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jumio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CA3AA91DA6BE0D00101E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B721E1ECAE71F11CA8B6B6C /* Pods_Jumio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CA3AA31DA6BE0D00101E00 = {
+			isa = PBXGroup;
+			children = (
+				04CA3AAE1DA6BE0D00101E00 /* Jumio */,
+				04CA3AAD1DA6BE0D00101E00 /* Products */,
+				224BE6F3D132E3515C41E6BD /* Pods */,
+				B0EAE3AAB9D37316DEBB83B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04CA3AAD1DA6BE0D00101E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CA3AAC1DA6BE0D00101E00 /* Jumio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CA3AAE1DA6BE0D00101E00 /* Jumio */ = {
+			isa = PBXGroup;
+			children = (
+				04CA3AB21DA6BE0D00101E00 /* AppDelegate.h */,
+				04CA3AB31DA6BE0D00101E00 /* AppDelegate.m */,
+				04CA3AB51DA6BE0D00101E00 /* ViewController.h */,
+				04CA3AB61DA6BE0E00101E00 /* ViewController.m */,
+				04CA3AB81DA6BE0E00101E00 /* Main.storyboard */,
+				04CA3ABB1DA6BE0E00101E00 /* Assets.xcassets */,
+				04CA3ABD1DA6BE0E00101E00 /* LaunchScreen.storyboard */,
+				04CA3AC01DA6BE0E00101E00 /* Info.plist */,
+				04CA3AAF1DA6BE0D00101E00 /* Supporting Files */,
+			);
+			path = Jumio;
+			sourceTree = "<group>";
+		};
+		04CA3AAF1DA6BE0D00101E00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CA3AB01DA6BE0D00101E00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		224BE6F3D132E3515C41E6BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				345E81E8A12D6E54950E7390 /* Pods-Jumio.debug.xcconfig */,
+				90CE565A56C93AA2C650F68E /* Pods-Jumio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0EAE3AAB9D37316DEBB83B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCD18633E3BF977BD8D80BB4 /* Pods_Jumio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CA3AAB1DA6BE0D00101E00 /* Jumio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CA3AC31DA6BE0E00101E00 /* Build configuration list for PBXNativeTarget "Jumio" */;
+			buildPhases = (
+				823586A6D00319E63786CC04 /* [CP] Check Pods Manifest.lock */,
+				04CA3AA81DA6BE0D00101E00 /* Sources */,
+				04CA3AA91DA6BE0D00101E00 /* Frameworks */,
+				04CA3AAA1DA6BE0D00101E00 /* Resources */,
+				C5ABB35524B2C08D2F4C0047 /* [CP] Embed Pods Frameworks */,
+				85CE52D1486279FA8F57984C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jumio;
+			productName = Jumio;
+			productReference = 04CA3AAC1DA6BE0D00101E00 /* Jumio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CA3AA41DA6BE0D00101E00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04CA3AAB1DA6BE0D00101E00 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 04CA3AA71DA6BE0D00101E00 /* Build configuration list for PBXProject "Jumio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CA3AA31DA6BE0D00101E00;
+			productRefGroup = 04CA3AAD1DA6BE0D00101E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CA3AAB1DA6BE0D00101E00 /* Jumio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CA3AAA1DA6BE0D00101E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CA3ABF1DA6BE0E00101E00 /* LaunchScreen.storyboard in Resources */,
+				04CA3ABC1DA6BE0E00101E00 /* Assets.xcassets in Resources */,
+				04CA3ABA1DA6BE0E00101E00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		823586A6D00319E63786CC04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85CE52D1486279FA8F57984C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jumio/Pods-Jumio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5ABB35524B2C08D2F4C0047 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jumio/Pods-Jumio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CA3AA81DA6BE0D00101E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CA3AB71DA6BE0E00101E00 /* ViewController.m in Sources */,
+				04CA3AB41DA6BE0D00101E00 /* AppDelegate.m in Sources */,
+				04CA3AB11DA6BE0D00101E00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04CA3AB81DA6BE0E00101E00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CA3AB91DA6BE0E00101E00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CA3ABD1DA6BE0E00101E00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CA3ABE1DA6BE0E00101E00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CA3AC11DA6BE0E00101E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04CA3AC21DA6BE0E00101E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CA3AC41DA6BE0E00101E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345E81E8A12D6E54950E7390 /* Pods-Jumio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jumio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Jumio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04CA3AC51DA6BE0E00101E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90CE565A56C93AA2C650F68E /* Pods-Jumio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jumio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Jumio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CA3AA71DA6BE0D00101E00 /* Build configuration list for PBXProject "Jumio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CA3AC11DA6BE0E00101E00 /* Debug */,
+				04CA3AC21DA6BE0E00101E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CA3AC31DA6BE0E00101E00 /* Build configuration list for PBXNativeTarget "Jumio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CA3AC41DA6BE0E00101E00 /* Debug */,
+				04CA3AC51DA6BE0E00101E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CA3AA41DA6BE0D00101E00 /* Project object */;
+}
